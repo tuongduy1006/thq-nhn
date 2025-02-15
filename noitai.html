@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>noi tai</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #aca3fc;
+        }
+        .frame {
+            width: 950px; /* Điều chỉnh kích thước khung */
+            height: 400px;
+            background-color: #ffb3ec; /* Điều chỉnh màu nền khung */
+            border: 2px solid #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .frame img {
+            position: absolute;
+            max-width: 100%;
+            top: 15%;
+            left:25%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .frame video {
+            width: 600px; /* Điều chỉnh kích thước video */
+            height: 300px;
+            margin-top: 10px;
+            position: absolute;
+            top: 50%; /* Điều chỉnh vị trí video */
+            left: 75%;
+            transform: translate(-50%, -50%);
+        }
+        .frame p {
+            position: absolute;
+            top: 35%; /* Điều chỉnh vị trí chữ */
+            left: 25%;
+            transform: translateX(-50%);
+            font-size: 22px;
+            max-width: 500px;
+        }
+        .logo {
+            position: absolute;
+            text-align: left;
+            top: 7%;
+            left: 92%;
+            transform: translateY(-50%);
+        }
+
+        .logo img {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <img src="image/noitai.png" >
+        <p>Tỉ lệ Chí mạng của Yasuo được gia tăng. Ngoài ra, Yasuo tích lá chắn mỗi khi di chuyển. Lá chắn kích hoạt khi anh chịu sát thương từ tướng hoặc quái.</p>
+        <video autoplay muted>
+            <source src="vidnoitai.mp4" >
+        </video>
+    </div>
+    <div class="logo">
+        <a href="thq.html">
+            <img src="image/logo1.jpg" >
+        </a>
+    </div>
+</body>
+</html>

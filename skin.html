@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skin-yasuo</title>
+    <style>
+        
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+         }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url("image/anhnen1.jpg") no-repeat center center/cover; /* Đặt hình nền */
+            filter: blur(2px); /* Làm mờ hình nền */
+        }
+        .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+        .left, .right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .left {
+            background: rgba(0, 0, 0, 0.5); /* Nền tối trong suốt cho bên trái */
+        }
+        .right {
+            background: rgba(0, 0, 0, 0.5); /* Nền tối trong suốt cho bên trái */
+            
+        }
+        .divider {
+            width: 2px;
+            background-color: black; /* Đường kẻ ở giữa */
+            height: 100%;
+        }
+        .logo {
+            position: absolute;
+            text-align: left;
+            top: 7%;
+            left: 92%;
+            transform: translateY(-50%);
+        }
+
+        .logo img {
+            width: 100px;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="content">
+        <div class="left">
+            <img src="image/anhskin2.jpg">
+            <h2>COMMON, LEGENDARY SKIN</h2>
+            <a href="skin1.html">
+                <p style="color: aqua;">-Skin-</p>
+            </a>
+        </div>
+        <div class="divider"></div>
+        <div class="right">
+            <img src="image/anhskin1.jpg">
+            <h2>LIMITED TIME EVENT SKIN</h2>
+            <a href="skin2.html">
+                <p style="color: aqua;">-Skin-</p>
+            </a>
+        </div>
+    </div>
+    <div class="background"></div>
+        <div class="logo">
+            <a href="thq.html">
+                <img src="image/logo1.jpg" >
+            </a>
+        </div>
+   
+</body>
+</html>
